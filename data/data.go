@@ -1,8 +1,10 @@
 package main
 
-import "log"
+import "fmt"
 
 func main() {
-	log.Printf("dupa")
-
+	fmt.Println("hello")
+	for j := 7; j <= 9; j++ {
+		fmt.Println(j)
+	}
 }
