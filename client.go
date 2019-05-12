@@ -18,7 +18,7 @@ func main() {
 	//Main function of client app.
 	//This function is called when app start
 
-	file_to_send, err := ioutil.ReadFile("data.go")
+	file_to_send, err := ioutil.ReadFile("data/data.go")
 	//Reading source code from code file
 
 	flag.Parse()
